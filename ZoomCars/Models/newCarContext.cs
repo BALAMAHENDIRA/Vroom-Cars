@@ -21,7 +21,6 @@ namespace ZoomCars.Models
         public virtual DbSet<Customer1> Customer1s { get; set; }
         public virtual DbSet<Location> Locations { get; set; }
         public virtual DbSet<Rental> Rentals { get; set; }
-        public virtual DbSet<CarVM> CarVMs { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -62,38 +61,6 @@ namespace ZoomCars.Models
                 entity.Property(e => e.Model)
                     .HasMaxLength(255)
                     .IsUnicode(false);
-            });
-
-            modelBuilder.Entity<CarVM>(entity =>
-            {
-                entity.HasKey(e => e.Vin)
-                    .HasName("PK__Cars__C5DF234D53DF5E73");
-
-                entity.Property(e => e.Vin).HasColumnName("VIN");
-
-                entity.Property(e => e.Brand)
-                    .HasMaxLength(255)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.CarAvailable)
-                    .HasMaxLength(100)
-                    .IsUnicode(false)
-                    .HasColumnName("Car_available");
-
-                entity.Property(e => e.CarPrice).HasColumnName("Car_price");
-
-                entity.Property(e => e.CarSeats).HasColumnName("Car_Seats");
-
-                entity.Property(e => e.CarType)
-                    .HasMaxLength(225)
-                    .IsUnicode(false)
-                    .HasColumnName("Car_type");
-
-                entity.Property(e => e.Model)
-                    .HasMaxLength(255)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.CarPrice).HasColumnName("Fprice");
             });
 
             modelBuilder.Entity<Customer1>(entity =>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BALAMAHENDIRA\\source\\repos\\ZoomCars\\ZoomCars\\ZoomCars.csproj": {}
+    "C:\\Users\\BALAMAHENDIRA\\OneDrive\\Desktop\\ZoomCars\\ZoomCars\\ZoomCars.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BALAMAHENDIRA\\source\\repos\\ZoomCars\\ZoomCars\\ZoomCars.csproj": {
+    "C:\\Users\\BALAMAHENDIRA\\OneDrive\\Desktop\\ZoomCars\\ZoomCars\\ZoomCars.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BALAMAHENDIRA\\source\\repos\\ZoomCars\\ZoomCars\\ZoomCars.csproj",
+        "projectUniqueName": "C:\\Users\\BALAMAHENDIRA\\OneDrive\\Desktop\\ZoomCars\\ZoomCars\\ZoomCars.csproj",
         "projectName": "ZoomCars",
-        "projectPath": "C:\\Users\\BALAMAHENDIRA\\source\\repos\\ZoomCars\\ZoomCars\\ZoomCars.csproj",
+        "projectPath": "C:\\Users\\BALAMAHENDIRA\\OneDrive\\Desktop\\ZoomCars\\ZoomCars\\ZoomCars.csproj",
         "packagesPath": "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BALAMAHENDIRA\\source\\repos\\ZoomCars\\ZoomCars\\obj\\",
+        "outputPath": "C:\\Users\\BALAMAHENDIRA\\OneDrive\\Desktop\\ZoomCars\\ZoomCars\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BALAMAHENDIRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
